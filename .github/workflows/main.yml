@@ -6,8 +6,8 @@ jobs:
   Ubuntu:
     runs-on: ubuntu-latest
     steps:
-    - name: Start JoJenH via tmate
-      uses: P3TERX/ssh2actions@main
+    - name: Start ssh via tmate
+      uses: JoJenH/ssh2actions@main
       # Send connection info to Telegram (optional)
       # You can find related documents here: https://core.telegram.org/bots
       env:
